@@ -1,9 +1,8 @@
-﻿angular.module("app", []);
+﻿
+angular.module("app", []);
 angular.module("app").controller("InfoController" , function ($scope,$http) {
     var selection = GetLangSelected();
-    CustomersController.$inject = ['Restangular', 'ngTableParams'];
- 
-    window.onload = function () {
+     window.onload = function () {
 
         function loadComponets() {
             $http.get('../json/configuration.json').success(function (configuration) {
@@ -23,6 +22,8 @@ angular.module("app").controller("InfoController" , function ($scope,$http) {
 
         loadComponets();
         loadValues();
+        //expect($('#template1').getAttribute('ng-cloak')).
+        //toBeNull();
     }
 
     $scope.Informations = {
