@@ -1,5 +1,12 @@
 ﻿[{ "id": "1", "name": "VIctor", "surname": "VIctor", "age": "21", "email": "victor.hugo.p.barbosa@hotmail.com" },
  { "id": "2", "name": "Richard", "surname": "Richard", "age": "22", "email": "Richard@hotmail.com" },
- { "id": "3", "name": "Donald", "surname": "Donald", "age": "23", "email": "Donald@hotmail.com" }
-     ]
+ { "id": "3", "name": "Donald", "surname": "Donald", "age": "23", "email": "Donald@hotmail.com" },
+ { "id": "4", "name": "Jean", "surname": "Jean", "age": "28", "email": "Jean@hotmail.com" },
+{ "id": "5", "name": "Michael", "surname": "Michael", "age": "18", "email": "Michael@hotmail.com" },
+{ "id": "6", "name": "Elvis", "surname": "Elvis", "age": "34", "email": "Elvis@hotmail.com" },
+{ "id": "7", "name": "Leonardo", "surname": "Leonardo", "age": "24", "email": "Leonardo@hotmail.com" },
+{ "id": "8", "name": "Robert", "surname": "Robert", "age": "25", "email": "Robert@hotmail.com" },
+{ "id": "9", "name": "John", "surname": "John", "age": "20", "email": "John@hotmail.com" }
+
+]
 
