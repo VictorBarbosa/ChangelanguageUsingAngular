@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+
+<script src="~/Scripts/pages/index.js"></script>
+
+<div id="divLanguage" ng-controller="languageController">
+    <div id="divlableLanguageMsg">
+        <label>
+            {{lan.language.msg}}
+        </label>
+    </div>
+
+    <div id="divDropDownLanguage">
+        <select ng-model="lan.language" title="{{lan.language.msg}}" ng-options="lan.language for lan in Laguage">
+            <option>{{lan.language}}</option>
+        </select>
+    </div>
+    <div id="divButtonEnter">
+        <button id="btnEnter" ng-Click="Selected(lan.language.language)"   class="btn btn-success">{{lan.language.buttonMsg}}</button>
+    </div>
+
+</div>

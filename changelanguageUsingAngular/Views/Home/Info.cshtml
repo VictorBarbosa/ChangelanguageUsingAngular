@@ -1,0 +1,54 @@
+﻿
+
+@{
+    ViewBag.Title = "title";
+
+}
+<script src="~/Scripts/pages/info.js"></script>
+<div ng-controller="InfoController">
+    @*Container of buttons*@
+    <div class="container">
+        <div class="col-md-6">
+            <input type="search" id="inputSearch" class="text-center" placeholder="{{Informations.selectedOption.placeHolder}}" value="" />
+        </div>
+        <div class="col-md-6">
+            <select id="selectLanguage" ng-options="option.lang for option in Informations.availableOptions track by option.id" ng-model="Informations.selectedOption"></select>
+        </div>
+    </div>
+    @*Container of Grid*@
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="divTable">
+                    <div class="table-responsive">
+                        <table class="text-center table table-hover table-striped table-bordered" >
+                            <thead>
+                                <tr>
+                                    <td style="width: 22%">{{Informations.selectedOption.tabelName}}</td>
+                                    <td style="width: 22%">{{Informations.selectedOption.tabelSurName}}</td>
+                                    <td style="width: 22%">{{Informations.selectedOption.tabelaAge}}</td>
+                                    <td style="width: 22%">{{Informations.selectedOption.tabelaEmail}}</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="info in InformationsGrid">
+                                    <td>{{info.name}} </td>
+                                    <td>{{info.surname}} </td>
+                                    <td>{{info.age}} </td>
+                                    <td>{{info.email}} </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+

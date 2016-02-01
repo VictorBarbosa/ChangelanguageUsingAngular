@@ -1,0 +1,29 @@
+﻿[
+  {
+    "id": "1",
+    "lang": "English",
+    "placeHolder": "Search",
+    "tabelName": "Name",
+    "tabelSurName": "Surname",
+    "tabelaAge": "Age",
+    "tabelaEmail": "Email"
+  },
+  {
+    "id": "2",
+    "lang": "Français",
+    "placeHolder": "Rechercher",
+    "tabelName": "Prenom",
+    "tabelSurName": "Nom de famille",
+    "tabelaAge": "Âge",
+    "tabelaEmail": "Courriel"
+  },
+  {
+    "id": "3",
+    "lang": "Português",
+    "placeHolder": "Pesquisar",
+    "tabelName": "Nome",
+    "tabelSurName": "Sobrenome",
+    "tabelaAge": "Idade",
+    "tabelaEmail": "Email"
+  }
+]
